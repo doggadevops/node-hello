@@ -19,7 +19,7 @@ pipeline {
 
             steps {
 
-               echo "Running Code Analysis"
+               echo "Run Code Analysis"
 
             }
 
