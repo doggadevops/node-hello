@@ -15,5 +15,53 @@ pipeline {
 
         }
 
+        stage("Run Code Analysis"){
+
+            steps {
+
+               echo "Running Code Analysis"
+
+            }
+
+        }
+
+        stage("Push Artifacts"){
+
+            steps {
+
+               echo "Push  Artifacts"
+
+            }
+
+        }
+
+        stage("Deploy to Dev"){
+
+            steps {
+
+               echo "Deploying to Dev....."
+
+            }
+
+        }
+
+        stage("Deploy to UAT"){
+
+            steps {
+
+                echo "Deploying to UAT....."
+
+            }
+        }
+
+        stage("Deploy to PROD"){
+
+            steps {
+
+                echo "Deploying to PROD....."
+
+            }
+        }
+
     }
 }
